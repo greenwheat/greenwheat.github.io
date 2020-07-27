@@ -96,6 +96,7 @@ try {
     function (err) {
       if (!err) {
         console.log("write summary.md file " + chalk.green("success!"));
+        console.log("work done!");
       } else {
         console.log(err);
       }
@@ -103,4 +104,4 @@ try {
   );
 })(dirMap);
 
-console.log("work done!");
+
