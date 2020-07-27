@@ -95,10 +95,12 @@ try {
     { encoding: "utf8" },
     function (err) {
       if (!err) {
-        console.log(chalk.green("write summary.md file success!"));
+        console.log("write summary.md file " + chalk.green("success!"));
       } else {
         console.log(err);
       }
     }
   );
 })(dirMap);
+
+console.log("work done!");
